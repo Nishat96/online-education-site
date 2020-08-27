@@ -2,42 +2,49 @@ var course = [
     {
         "id": 1,
         "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "instructor": "Bombel Angela",
         "price" : 9.99,
     },
     {
         "id": 2,
         "title" : "Photography Masterclass: A Complete Guide to Photography",
+        "instructor": "Dr. Yu",
         "price" : 19.99,
     },
     {
         "id": 3,
         "title" : "The Complete 2020 Web Development Bootcamp",
-        
+        "instructor": "Dr. Angela Yu",
         "price" : 10.99,
     },
     {
         "id": 4,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "AWS Certified Solutions Architect Associate: SAA-C02 exam",
+        "instructor": "David Bombel",
         "price" : 15.99,
     },
     {
         "id": 5,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "The Complete Guide to Getting Certified-JavaSrcipt",
+        "instructor": "Zaid Sabih",
         "price" : 60.99,
     },
     {
         "id": 6,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "Programming with python",
+        "instructor": "Zaid David",
         "price" : 10.99,
     },
     {
         "id": 7,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "The Complete Cyber Security Course : Hackers Exposed!",
+        "instructor": "Nathan House",
         "price" : 30.09,
     },
     {
         "id": 8,
         "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "instructor": "Nathan House",
         "price" : 20.99,
     },
     {

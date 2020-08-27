@@ -1,8 +1,9 @@
 .cart{
     margin-left: 120px;
-    background-color: lightgray;
+    background-color: #dfd1bb;
     margin-top: 200px;
     padding: 60px;
+    box-shadow: 5px 5px 10px gray;
 }
 .items{
     text-align: center;

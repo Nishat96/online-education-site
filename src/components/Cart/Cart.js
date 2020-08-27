@@ -18,7 +18,7 @@ const Cart = (props) => {
                     <p> After discount: ${afterDiscount}</p>
 
                 </div> */}
-                <Card className="bg-dark text-white items">
+                <Card className="items">
                 <Card.ImgOverlay>
                     <Card.Title> <h2>Enrolled Courses</h2> </Card.Title>
                     <Card.Text>

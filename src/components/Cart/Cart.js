@@ -13,12 +13,12 @@ const Cart = (props) => {
             <Card className="items">
                 <Card.ImgOverlay>
                     <Card.Title> <h2>Enrolled Courses</h2> </Card.Title>
-                    <Card.Text>
-                    <h4> Course Selected: {cart.length}</h4> <br/>
-                   <span id="cart-item">Total Price: ${cost} </span> <br/>
-                    <small><span id="discount-span">Discount: 10%</span> </small> <br/>
-                   <span id="cart-item">After Discount: ${afterDiscount}</span> 
-                    </Card.Text>
+                         <Card.Text>
+                            <h4> Course Selected: {cart.length}</h4> <br/>
+                            <span id="cart-item">Total Price: ${cost} </span> <br/>
+                            <small><span id="discount-span">Discount: 10%</span></small> <br/>
+                            <span id="cart-item">After Discount: ${afterDiscount}</span> 
+                        </Card.Text>
                  </Card.ImgOverlay>
             </Card>
         </div>

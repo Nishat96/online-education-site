@@ -3,9 +3,7 @@ import './CourseInfo.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
-
 const CourseInfo = (props) => {
-    // console.log(props.courseInfo);
     const {image, title, instructor, price} = props.courseInfo;
     return (
         <div className="courseInfo-div" >

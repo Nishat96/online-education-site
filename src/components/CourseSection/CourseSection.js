@@ -18,20 +18,16 @@ const CourseSection = () => {
     return (
         <div className="CourseSection-container">
             <div className="courseInfo-container">
-            
                 {
                     course.map(csInfo => <CourseInfo 
                         handleAddCourse = {handleAddCourse}
                         courseInfo={csInfo}
-                        ></CourseInfo>)
+                    ></CourseInfo>)
                 }
-            
             </div>
             <div className="cart-container">
                <Cart cart={cart}></Cart>
             </div>
-        
-           
         </div>
     );
 };

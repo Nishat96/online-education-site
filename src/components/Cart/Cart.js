@@ -23,9 +23,9 @@ const Cart = (props) => {
                     <Card.Title> <h2>Enrolled Courses</h2> </Card.Title>
                     <Card.Text>
                     <h4> Course Selected: {cart.length}</h4> <br/>
-                    Total Price: ${cost} <br/>
-                    <small>Discount: 10% </small> <br/>
-                    After discount: ${afterDiscount}
+                   <span id="cart-item">Total Price: ${cost} </span> <br/>
+                    <small><span id="discount-span">Discount: 10%</span> </small> <br/>
+                   <span id="cart-item">After discount: ${afterDiscount}</span> 
                     </Card.Text>
                  </Card.ImgOverlay>
             </Card>

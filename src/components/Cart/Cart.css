@@ -14,3 +14,10 @@
 .cart h4{
     color: #0000ff;
 }
+#discount-span{
+    color: #978e10;
+    font-weight: 700;   
+}
+#cart-item{
+    font-weight: 600;
+}

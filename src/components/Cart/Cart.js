@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cart.css';
+import Card from 'react-bootstrap/Card'; 
 
 const Cart = (props) => {
     const cart = props.cart;
@@ -9,14 +10,25 @@ const Cart = (props) => {
     const afterDiscount = (cost - discount).toFixed(2); 
     return (
         <div className="cart">
-            <h2> Added Course </h2>
+            {/* <h2> Enrolled Courses </h2>
                 <div className="items">
                     <h4> Course Selected: {cart.length}</h4>
-                    <p>Total Price: {cost}</p>
-                    <p> Discount: 10% </p>
-                    <p> After discount: {afterDiscount}</p>
+                    <p>Total Price: ${cost}</p>
+                    <p> <small>Discount: 10% </small> </p>
+                    <p> After discount: ${afterDiscount}</p>
 
-                </div>
+                </div> */}
+                <Card className="bg-dark text-white items">
+                <Card.ImgOverlay>
+                    <Card.Title> <h2>Enrolled Courses</h2> </Card.Title>
+                    <Card.Text>
+                    <h4> Course Selected: {cart.length}</h4> <br/>
+                    Total Price: ${cost} <br/>
+                    <small>Discount: 10% </small> <br/>
+                    After discount: ${afterDiscount}
+                    </Card.Text>
+                 </Card.ImgOverlay>
+            </Card>
         </div>
     );
 };

@@ -4,6 +4,15 @@
     background-color: #f0eecd;
     border-radius: 2px;
 }
+.allCourse p{
+    background-color: #ebeb6a;
+    color: black;
+    width: 60px;
+    padding: 2px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 10px;
+}
 .cart-btn{
     background-color: #a3b46f;
     padding: 7px 15px;

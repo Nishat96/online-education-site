@@ -8,7 +8,7 @@ var course = [
     {
         "id": 2,
         "title" : "Photography Masterclass: A Complete Guide to Photography",
-        "instructor": "Dr. Yu",
+        "instructor": "Rahul Portel",
         "price" : 19.99,
     },
     {
@@ -32,58 +32,66 @@ var course = [
     {
         "id": 6,
         "title" : "Programming with python",
-        "instructor": "Zaid David",
+        "instructor": "Zaid Colt",
         "price" : 10.99,
     },
     {
         "id": 7,
         "title" : "The Complete Cyber Security Course : Hackers Exposed!",
-        "instructor": "Nathan House",
+        "instructor": "Nathan david",
         "price" : 30.09,
     },
     {
         "id": 8,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
-        "instructor": "Nathan House",
+        "title" : "AWS Certified Developer - Associate 2020",
+        "instructor": "Rayan House",
         "price" : 20.99,
     },
     {
         "id": 9,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+        "instructor": "Team House",
         "price" : 10.99,
     },
     {
         "id": 10,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "Angular - The Complete Guide (2020 Edition)",
+        "instructor": "Angela Colt",
         "price" : 6.99,
     }, {
         "id": 11,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "The Web Developer Bootcamp",
+        "instructor": "Colt Steel",
         "price" : 11.99,
     },
     {
         "id": 12,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "The Data Science Course 2020: Complete Data Science",
+        "instructor": "Jonas Jose",
         "price" : 16.99,
     },
     {
         "id": 13,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "The Complete JavaScript Course 2020: Build Real Projects!",
+        "instructor": "David Portilia",
         "price" : 10.59,
     },
     {
         "id": 14,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "React - The Complete Guide (incl Hooks, React Router, Redux)",
+        "instructor": "Rob Percivil",
         "price" : 11.99,
     },
     {
         "id": 15,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "Rest API Testing (Automation) from Scratch -RestAssured Java",
+        "instructor": "David Kode",
         "price" : 12.99,
     },
     {
         "id": 16,
-        "title" : "Cisco CCNA 200-301 – The Complete Guide to Getting Certified",
+        "title" : "Selenium WebDriver with Java -Basics to Advanced+Frameworks",
+        "instructor": "Rahul Shetty",
         "price" : 19.99,
 
     }]

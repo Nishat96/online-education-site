@@ -1,0 +1,8 @@
+.CourseSection-container{
+    display: flex;
+}
+.courseInfo-container{
+    width: 60%;
+    margin-left: 15px;
+    border-right: 1px solid green;
+}

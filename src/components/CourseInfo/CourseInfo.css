@@ -1,0 +1,25 @@
+.allCourse{
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0eecd;
+    border-radius: 2px;
+}
+.cart-btn{
+    background-color: #a3b46f;
+    padding: 7px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #463939;
+    border: none;
+}
+.cart-btn:hover{
+  background-color: #4a5f0c;
+  color: wheat;
+}
+.title-name{
+    color: #344904;
+    
+}
+#author{
+    color: #0000ff;
+}

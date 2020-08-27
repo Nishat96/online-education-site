@@ -5,8 +5,7 @@ import CourseSection from './components/CourseSection/CourseSection';
 function App() {
   return (
     <div >
-      
-     <CourseSection></CourseSection>
+      <CourseSection></CourseSection>
     </div>
   );
 }

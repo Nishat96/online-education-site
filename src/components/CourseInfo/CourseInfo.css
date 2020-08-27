@@ -3,6 +3,8 @@
     padding: 20px;
     background-color: #f0eecd;
     border-radius: 2px;
+    width: 90%;
+    display: flex;
 }
 .allCourse p{
     background-color: #ebeb6a;
@@ -26,9 +28,23 @@
   color: wheat;
 }
 .title-name{
-    color: #344904;
-    
+    color: #344904;   
 }
 #author{
     color: #0000ff;
+}
+.course-image{
+    width: 50%;
+    padding-right: 30px;
+    position: relative;
+    top: 50px;
+    margin-right: 10px;
+}
+.course-image img{
+    height: 150px;
+    width: 250px;
+    justify-content: center;
+}
+.course-details{
+    width: 70%;
 }

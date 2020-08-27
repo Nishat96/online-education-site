@@ -10,22 +10,14 @@ const Cart = (props) => {
     const afterDiscount = (cost - discount).toFixed(2); 
     return (
         <div className="cart">
-            {/* <h2> Enrolled Courses </h2>
-                <div className="items">
-                    <h4> Course Selected: {cart.length}</h4>
-                    <p>Total Price: ${cost}</p>
-                    <p> <small>Discount: 10% </small> </p>
-                    <p> After discount: ${afterDiscount}</p>
-
-                </div> */}
-                <Card className="items">
+            <Card className="items">
                 <Card.ImgOverlay>
                     <Card.Title> <h2>Enrolled Courses</h2> </Card.Title>
                     <Card.Text>
                     <h4> Course Selected: {cart.length}</h4> <br/>
                    <span id="cart-item">Total Price: ${cost} </span> <br/>
                     <small><span id="discount-span">Discount: 10%</span> </small> <br/>
-                   <span id="cart-item">After discount: ${afterDiscount}</span> 
+                   <span id="cart-item">After Discount: ${afterDiscount}</span> 
                     </Card.Text>
                  </Card.ImgOverlay>
             </Card>

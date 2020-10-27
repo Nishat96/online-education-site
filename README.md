@@ -4,4 +4,4 @@
 * Also can check the total price.
 
 #### Tools:  Html5, Css3, React.js, React-hooks, Material-UI
-#### Live Link: :  https://online-education-site-696.netlify.app/
+#### Live Link: https://online-education-site-696.netlify.app/
